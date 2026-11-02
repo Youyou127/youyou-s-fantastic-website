@@ -1,15 +1,14 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#09090f" />
-  <meta name="description" content="Youyou's Digital Media portfolio: a personal world of learning, reflection and creative work." />
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090f">
+  <meta name="description" content="Youyou's Digital Media portfolio: a personal world of learning, reflection and creative work.">
   <title>A World I’m Making — Youyou</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link href="stylesheet.css?v=5" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Cormorant+Garamond:wght@500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="stylesheet.css?v=7" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div class="site-shell">
@@ -21,26 +20,64 @@
       <section class="hero" id="home">
         <div class="hero-copy">
           <p class="eyebrow"><span class="eyebrow-line"></span> FIELD JOURNAL · LEEDS, UK</p>
-          <h1>A World<br />I’m <em>Making.</em></h1>
+          <h1>A World<br>I’m <em>Making.</em></h1>
           <p class="hero-intro">A personal archive of what I notice, learn and make as I find my way through Digital Media.</p>
           <a class="text-link" href="journal.html">Open my journal <span aria-hidden="true">↗</span></a>
         </div>
         <a class="arcana-card" href="journal.html" aria-label="Open the journal: The Initiate">
           <span class="card-topline"><span>FIELD NOTES</span><span>I</span></span>
-          <svg class="card-sigil" viewBox="0 0 360 420" role="img" aria-label="A sun, crescent moon, stars and winding line">
-            <g class="sigil-stars" fill="none" stroke="currentColor" stroke-width="1.4">
-              <path d="M64 72v22m-11-11h22M286 102v18m-9-9h18M78 290v16m-8-8h16M292 278v22m-11-11h22"/>
-              <path d="m114 116 5 12 12 5-12 5-5 12-5-12-12-5 12-5zM254 221l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
-              <circle cx="288" cy="151" r="2" fill="currentColor"/><circle cx="94" cy="209" r="2" fill="currentColor"/><circle cx="247" cy="78" r="2" fill="currentColor"/>
+          <span class="card-orbit card-orbit--one" aria-hidden="true"></span>
+          <span class="card-orbit card-orbit--two" aria-hidden="true"></span>
+          <span class="card-dust" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+          <svg class="card-sigil" viewBox="0 0 360 560" role="img" aria-label="An engraved sun and moon surrounded by a celestial chart">
+            <defs>
+              <radialGradient id="sun-ink"><stop stop-color="#d7bd8c" stop-opacity=".18"></stop><stop offset=".68" stop-color="#9b7c5b" stop-opacity=".04"></stop><stop offset="1" stop-color="#17111e" stop-opacity="0"></stop></radialGradient>
+              <pattern id="etch-lines" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0v5" stroke="#c9ad7d" stroke-opacity=".32" stroke-width=".7"></path></pattern>
+            </defs>
+            <g class="sigil-engraving" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="180" cy="240" r="151" stroke-width=".7" stroke-dasharray="1 5" opacity=".65"></circle>
+              <circle cx="180" cy="240" r="139" stroke-width=".65" opacity=".58"></circle>
+              <circle cx="180" cy="240" r="120" stroke-width="1"></circle>
+              <circle cx="180" cy="240" r="105" stroke-width=".7" stroke-dasharray="2 4"></circle>
+              <circle cx="180" cy="240" r="92" stroke-width="1.3"></circle>
+              <circle cx="180" cy="240" r="77" stroke-width=".65"></circle>
+              <path d="M180 55v25m0 320v-25M-5 240h26m318 0h26M49 109l19 19m224 224-19-19m19-224-19 19M68 368l-19 19" stroke-width="1"></path>
+              <path d="M180 80l8 19-8 19-8-19zM180 382l8 19-8 19-8-19zM20 240l19 8 19-8-19-8zM302 240l19 8 19-8-19-8z" stroke-width=".9"></path>
+              <path d="M180 91v25m0 248v25m-116-149h25m182 0h25M75 135l18 18m214 174-18-18m0-174-18 18M93 327l-18 18" stroke-width=".7" stroke-dasharray="1 3"></path>
+              <path d="M180 131l6 22 22 6-22 6-6 22-6-22-22-6 22-6zM180 293l4 14 14 4-14 4-4 14-4-14-14-4 14-4z" stroke-width=".8" opacity=".8"></path>
+              <path d="M56 159c23-14 34-15 52-14m196 0c-18-1-29 0-52 14M56 321c23 14 34 15 52 14m196 0c-18 1-29 0-52-14" stroke-width=".65" stroke-dasharray="1 3"></path>
             </g>
-            <g class="sigil-sun" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round">
-              <circle cx="180" cy="166" r="54"/><circle cx="180" cy="166" r="45"/>
-              <path d="M180 91v-17m0 184v-17m75-75h17m-184 0h17m128-53 12-12m-130 130 12-12m0-106-12-12m130 130-12-12M201 96l-5-15m-32 170-5-15m72-49 15 5m-152 32 15 5m92-148 9-13m-81 148 9-13m-17-122-9-13m81 148-9-13"/>
-              <path d="M164 166c5-8 10-8 15 0 5-8 10-8 15 0M168 186q12 10 24 0"/>
+            <g class="sigil-rays" stroke="currentColor" stroke-linecap="round">
+              <path d="M180 111v43m0 172v43M51 240h43m172 0h43M89 149l31 31m120 120 31 31m0-182-31 31M120 300l-31 31" stroke-width="1.3"></path>
+              <path d="M180 128v22m0 180v22M68 240h22m180 0h22M100 160l16 16m128 128 16 16m0-160-16 16m-128 128-16 16" stroke-width=".7" stroke-dasharray="2 3"></path>
+              <path d="M145 140l8 17m54 166 8 17m-69 0 8-17m54-166 8-17M114 205l18 7m96 56 18 7m0-70-18 7m-96 56-18 7" stroke-width=".75"></path>
             </g>
-            <path class="sigil-moon" d="M253 125a27 27 0 1 0 28 38 23 23 0 1 1-28-38Z" fill="none" stroke="currentColor" stroke-width="1.4"/>
-            <path class="sigil-thread" d="M180 239c-34 19-37 39-2 50 35 11 31 31-3 42-34 11-27 33 5 43 26 8 27 23 4 34" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
-            <circle cx="184" cy="408" r="3" fill="currentColor"/>
+            <circle cx="180" cy="240" r="91" fill="url(#sun-ink)"></circle>
+            <circle cx="180" cy="240" r="75" fill="url(#etch-lines)" opacity=".34"></circle>
+            <g class="sigil-face" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M180 166a74 74 0 0 0 0 148z" fill="#0d0b12" stroke-width="1.2"></path>
+              <path d="M180 166a74 74 0 0 1 0 148z" fill="#c9ad7d" fill-opacity=".13" stroke-width="1.2"></path>
+              <path d="M124 216q12-13 25 0m62 0q12-13 25 0M128 220q9 7 17 0m66 0q9 7 17 0" fill="none" stroke-width="1.3"></path>
+              <path d="M145 236q-3 7 2 10m66-10q-3 7 2 10m-34-9-7 28 9 3m-20 18q19 12 38 0" fill="none" stroke-width="1.2"></path>
+              <path d="M138 255q-7 19 2 37m82-37q7 19-2 37" fill="none" stroke-width=".55" opacity=".65"></path>
+              <circle cx="180" cy="240" r="80" fill="none" stroke-width=".7"></circle>
+            </g>
+            <g class="sigil-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M273 151a50 50 0 1 0 48 76 43 43 0 1 1-48-76Z" stroke-width="1.7"></path>
+              <path d="M280 167a33 33 0 0 0 32 48m-37-42 4-7m-7 23 1-8" stroke-width=".7" opacity=".75"></path>
+            </g>
+            <g class="sigil-stars" fill="currentColor">
+              <path d="m88 204 4 12 12 4-12 4-4 12-4-12-12-4 12-4zM279 290l3 9 9 3-9 3-3 9-3-9-9-3 9-3zM266 111l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"></path>
+              <circle cx="89" cy="260" r="2.5"></circle><circle cx="267" cy="269" r="2"></circle><circle cx="112" cy="126" r="2.2"></circle><circle cx="248" cy="354" r="2.5"></circle>
+            </g>
+            <g class="sigil-thread" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M180 326c-49 21-55 43-12 60 45 17 47 37 0 56-45 18-40 41 7 57 40 14 40 33 5 48" stroke-width="1.4"></path>
+              <path d="M180 326c-49 21-55 43-12 60 45 17 47 37 0 56-45 18-40 41 7 57 40 14 40 33 5 48" stroke-width="5" stroke-dasharray=".1 6" opacity=".42"></path>
+              <circle cx="180" cy="326" r="3" fill="currentColor"></circle><circle cx="180" cy="547" r="3.5" fill="currentColor"></circle>
+            </g>
+            <g class="sigil-hand" fill="none" stroke="currentColor" stroke-linecap="round" opacity=".72">
+              <path d="M154 393l-6-23m23 15-2-26m23 26 6-23m-48 29q17-12 33-7" stroke-width=".8"></path>
+            </g>
           </svg>
           <span class="card-title">THE INITIATE</span>
           <span class="card-caption">A world in the making</span>
@@ -54,7 +91,7 @@
         <div class="portal-grid">
           <a class="portal-card portal-journal" href="journal.html"><span class="portal-number">I · THE RECORD</span><span class="portal-symbol" aria-hidden="true">☼</span><h3>The Journal</h3><p>Weekly class notes, encounters and discoveries from the process.</p><span class="portal-action">Open journal <b aria-hidden="true">↗</b></span></a>
           <a class="portal-card portal-reflections" href="reflections.html"><span class="portal-number">II · THE MIRROR</span><span class="portal-symbol" aria-hidden="true">☾</span><h3>Reflections</h3><p>What I am learning, questioning and carrying forward.</p><span class="portal-action">Read reflections <b aria-hidden="true">↗</b></span></a>
-          <a class="portal-card portal-work" href="work.html"><span class="portal-number">III · THE MAKING</span><span class="portal-symbol" aria-hidden="true">✧</span><h3>Projects & Experiments</h3><p>A growing collection of creative work, tests and ideas.</p><span class="portal-action">View projects <b aria-hidden="true">↗</b></span></a>
+          <a class="portal-card portal-work" href="work.html"><span class="portal-number">III · THE MAKING</span><span class="portal-symbol" aria-hidden="true">✧</span><h3>Projects &amp; Experiments</h3><p>A growing collection of creative work, tests and ideas.</p><span class="portal-action">View projects <b aria-hidden="true">↗</b></span></a>
         </div>
       </section>
 
@@ -70,5 +107,6 @@
     </main>
     <footer><span>MADE BY YOUYOU · DIGITAL MEDIA</span><span>AN OPEN-ENDED PORTFOLIO · LEEDS</span></footer>
   </div>
-</body>
-</html>
+
+
+</body></html>
