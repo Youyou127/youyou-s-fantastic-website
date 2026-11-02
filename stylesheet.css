@@ -100,10 +100,10 @@ h1 em, h2 em { color: var(--gold); font-weight: 500; }
 .week-content h3 { color: #f4f0f8; font-size: clamp(25px, 3vw, 34px); line-height: 1.25; margin-bottom: 24px; }
 .entry-grid { display: grid; grid-template-columns: 1.12fr .88fr; gap: 34px; align-items: start; }
 .entry-grid h4 { margin-bottom: 12px; color: var(--gold); font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
-.entry-grid p { color: #d0cdda; font-size: 13px; line-height: 1.85; margin-bottom: 15px; }
+.entry-grid p { color: #d0cdda; font-size: 14px; line-height: 1.8; margin-bottom: 15px; }
 .entry-grid em { color: #e0d9f0; }
 .reflection { padding: 19px 21px 14px; background: var(--panel); border: 1px solid rgba(174, 158, 222, .13); border-top: 2px solid rgba(189, 155, 232, .7); }
-.reflection p { color: #c3bfd0; font-size: 12.5px; }
+.reflection p { color: #c3bfd0; font-size: 13.5px; }
 .week-card + .week-card { padding-top: 43px; }
 .closing-note { position: relative; text-align: center; padding: 88px 24px 96px; border-top: 1px solid var(--line); background: radial-gradient(ellipse at 50% 100%, rgba(73, 62, 126, .24), transparent 58%); }
 .closing-star { display: block; color: var(--gold); font-size: 24px; margin-bottom: 16px; }
