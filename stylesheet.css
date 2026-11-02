@@ -509,3 +509,7 @@ footer a { text-decoration-color: var(--gold-soft); text-underline-offset: 0.2em
   .chart-legend { width: 100%; }
   .report-chart figcaption { grid-column: 1; }
 }
+
+
+/* Keep the engraved card fully visible in the first screenful. */
+.card-sigil { max-width: 245px; }
